@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <ComItowns />
+    <ComSPH />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import ComItowns from './components/ComItowns.vue';
+import ComSPH from './components/ComSph.vue';
 import 'normalize.css';
 
 @Component({
   components: {
-    ComItowns
+    ComItowns,
+    ComSPH
   }
 })
 export default class App extends Vue {}
