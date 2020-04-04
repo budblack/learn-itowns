@@ -6,13 +6,13 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import ComItowns from './components/ComItowns.vue';
+// import ComItowns from './components/ComItowns.vue';
 import ComSPH from './components/ComSph.vue';
 import 'normalize.css';
 
 @Component({
   components: {
-    ComItowns,
+    // ComItowns,
     ComSPH
   }
 })

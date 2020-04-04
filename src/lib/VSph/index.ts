@@ -1,4 +1,4 @@
-// const itowns = require('itowns');
+const SPH = require('./sph.js').default;
 
 export default class VSPH {
   private _dom: Element;
@@ -15,6 +15,7 @@ export default class VSPH {
     this._dom = dom;
     this._init();
 
-    alert(1)
+    const sph = new SPH();
+    console.log('sph', sph);
   }
 }
